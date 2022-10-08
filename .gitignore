@@ -1,6 +1,6 @@
-###### Collectedview - Git Ignore // See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+###### collectedview - Git Ignore // See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-### Frontend
+###### Frontend ######
 
 ### Dependencies ###
 /node_modules
@@ -12,6 +12,7 @@
 
 ### Production ###
 /build
+web-build/
 
 ### Misc ###
 .DS_Store
@@ -30,12 +31,40 @@ yarn-debug.log*
 yarn-error.log*
 
 ### Local Env Files ###
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-### Backend
+### Server Env Files ###
+/nodemon.json
+
+### Next.js ###
+/.next/
+/out/
+
+### Vercel ###
+.vercel
+
+### Firebase ###
+/firebase
+.firebase
+.firebaserc
+firebase.json
+
+### Expo ###
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+###### Backend ######
+
+### Gradle ###
 HELP.md
 .gradle
 build/
